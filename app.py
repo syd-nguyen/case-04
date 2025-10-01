@@ -57,4 +57,4 @@ def hash(str):
     return sha256(str.encode('utf-8')).hexdigest()
 
 if __name__ == "__main__":
-    app.run(port=0, debug=True)
+    app.run(port=5000, debug=True)
